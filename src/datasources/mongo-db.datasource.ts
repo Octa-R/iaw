@@ -6,11 +6,11 @@ const config = {
   name: 'MongoDB',
   connector: 'mongodb',
   url: 'mongodb+srv://octouser:YATx0uHKFD7ghu3b@cluster-personal.dcmmhbf.mongodb.net/test?retryWrites=true&w=majority',
-  database: 'cluster-personal',
-  host: 'cluster-personal.dcmmhbf.mongodb.net',
-  // port: 0,
-  user: 'octouser',
-  password: 'YATx0uHKFD7ghu3b',
+  // database: 'cluster-personal',
+  // host: 'cluster-personal.dcmmhbf.mongodb.net',
+  // // port: 0,
+  // user: 'octouser',
+  // password: 'YATx0uHKFD7ghu3b',
   useNewUrlParser: true
 };
 
