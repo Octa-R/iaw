@@ -27,10 +27,9 @@ export class File extends Entity {
   userId?: string;
 
   @property({
-    type:"Date",
-    defaultFn:"now",
+    type:"number",
   })
-  createdAt: Date;
+  creationDate: number;
 
   constructor(data?: Partial<File>) {
     super(data);

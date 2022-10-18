@@ -12,8 +12,8 @@ export class Job extends CronJob {
        // se podria hacer que cada dia el job ejecute este metodo y que el repositorio borre
        // los archivos de más de 30 días
       //  await fileRepository.deleteExpiredVersions();
-       console.log(new Date());
-       console.log(files);
+      //  console.log(new Date());
+      //  console.log(files);
      },
      cronTime: '*/10 * * * * *',
      start: true,
